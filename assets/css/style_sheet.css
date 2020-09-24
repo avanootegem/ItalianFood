@@ -1,0 +1,13 @@
+:root {
+    --couleur-bg: rgb(191, 150, 75);
+}
+
+body {
+    background-color: var(--couleur-bg);
+    margin: 0;
+}
+
+header, section, footer {
+    height: 100vh;
+    border: solid black 
+}
