@@ -13,33 +13,37 @@ header {
     background-position: center;
 }
 
-header h1 {
-    position: relative;
-    color: white;
+@media (min-width: 768px) {
 
-    top: 60vh; 
-    left: 5vw;
+    header h1 {
+        position: relative;
+        color: white;
 
-    height: 25vh;
-    width: 40vw;
+        top: 60vh; 
+        left: 5vw;
 
-    font-size: 10vh;
-}
+        height: 25vh;
+        width: 40vw;
+
+        font-size: 10vh;
+    }
 
 
-header p.bouton {
-    display: flex;
-    position: absolute;
-    color: white;
-    background-color: var(--couleur-bg);
+    header p.bouton {
+        display: flex;
+        position: absolute;
+        color: white;
+        background-color: var(--couleur-bg);
 
-    top: 72vh; 
-    left: 79vw;
+        top: 72vh; 
+        left: 79vw;
 
-    height: 8vh;
-    width: 15vw;
-    font-size: 3vh;
+        height: 9vh;
+        width: 13vw;
+        font-size: 3.5vh;
 
-    justify-content: center;
-    align-items: center;   
+        text-align: center;
+        justify-content: center;
+        align-items: center;   
+    }
 }
