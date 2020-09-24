@@ -1,0 +1,45 @@
+/* Variable */
+:root {
+    --couleur-bg: rgb(191, 150, 75);
+    --couleur-nav: rgb(115, 108, 77);
+}
+
+/* Page 1 */
+
+header {
+    background-image: url("../img/BackGroundPart1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    position: relative;
+    color: white;
+
+    top: 60vh; 
+    left: 5vw;
+
+    height: 25vh;
+    width: 40vw;
+
+    font-size: 10vh;
+}
+
+
+header p.bouton {
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: var(--couleur-bg);
+
+    top: 72vh; 
+    left: 79vw;
+
+    height: 8vh;
+    width: 15vw;
+    font-size: 3vh;
+
+    justify-content: center;
+    align-items: center;   
+}
