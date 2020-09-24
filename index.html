@@ -10,6 +10,27 @@
 </head>
 
 <body>
+    <nav id="nav-container" onclick="myfunction(this)">
+        <div id="menu-icon">
+            <svg x="0" y="0" width="54px" height="54px" viewBox="0 0 54 54">
+                <circle cx="27" cy="27" r="25"></circle>
+            </svg>
+            <span class="trait"></span>
+        </div>
+        <ul id="nav-links">
+            <li> <a href=""> Contact Us </a> </li>
+            <li> <a href=""> Order </a> </li>
+            <li> <a href=""> About </a> </li>
+            <li> <a href=""> Home </a> </li>
+            <li class="gauche"> <img src="assets/img/Logo.png" alt="" id="nav-img"> </li>
+        </ul>
+    </nav>
+    <script>
+        function myfunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+
     <header>
 
     </header>
@@ -43,7 +64,7 @@
     </section>
 
     <footer>
-        
+
     </footer>
 </body>
 
