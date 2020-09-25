@@ -1,0 +1,30 @@
+/* Variable */
+:root {
+    --couleur-bg: rgb(191, 150, 75);
+    --couleur-nav: rgb(115, 108, 77);
+}
+
+/* Page 6 */
+
+section#page6 {
+    background-image: url(../img/BackGroundPart6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Page 7 */
+
+section#page7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#page7 span {
+    color: white;
+    padding: 2vh 0;
+
+    font-size: 5vw;
+}
