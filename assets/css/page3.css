@@ -10,7 +10,7 @@ section#page3 {
     background-color: var(--couleur-nav);
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     section#page3 div.block3 {
         display: flex;
 

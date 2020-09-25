@@ -16,7 +16,7 @@ section#page2 {
     justify-content: flex-end;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     section#page2 div.block2 {
         display: flex;
         flex-direction: column;
