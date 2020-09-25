@@ -50,12 +50,12 @@ nav ul {
 
     nav #nav-img{
         padding-left: 3%;
-        height: 19vh;
+        height: 15vh;
     }
 
     nav ul {
         display: flex;
-        justify-content: right;
+        
     }
 
     nav li a {
