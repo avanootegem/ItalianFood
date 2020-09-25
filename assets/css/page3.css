@@ -77,4 +77,8 @@ section#page3 {
         justify-content: center;
         align-items: center; 
     }
+
+    section#page3 div.block3 div.block3txt div.bouton3:hover {
+        cursor: pointer;
+    }
 }

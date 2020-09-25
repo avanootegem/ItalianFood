@@ -1,0 +1,13 @@
+/* Variable */
+:root {
+    --couleur-bg: rgb(191, 150, 75);
+    --couleur-nav: rgb(115, 108, 77);
+}
+
+/* Page 6 */
+
+section#page6 {
+    background-image: url(../img/BackGroundPart6.png);
+}
+
+/* Page 7 */
