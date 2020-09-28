@@ -15,7 +15,6 @@ body {
 
 header, section, footer {
     min-height: 100vh;
-    border: solid black;
 }
 
 /* Barre de navigation */

@@ -1,20 +1,67 @@
-/* Variable */
-:root {
-    --couleur-bg: rgb(191, 150, 75);
-    --couleur-nav: rgb(115, 108, 77);
-}
-
 /* Page 9 */
 
 
-footer div.bghaut9, footer div.bgbas9 {
+footer div.bg9 {
     width: 100vw;
     height: 10vh;
 
     background-color: var(--couleur-nav);
 }
 
-footer div.block9 {
-    width: 100vw;
-    height: 80vh;
+@media screen and (min-width: 768px) {
+    footer div.block9 {
+        display: flex;
+        width: 100vw;
+        height: 80vh;
+
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    footer div.block9 div.blocktext9 {
+        display: flex;
+        width: 100vw;
+
+        color: white;
+
+        justify-content: space-around;
+        
+    }
+
+    footer div.block9 div.blocktext9 h3 {
+        font-size: 4vh;
+
+        font-family: "AvenirHeavy";
+        padding-bottom: 5vh;
+    }
+
+    footer div.block9 div.blocktext9 div.text9 {
+        width: 40vw;
+        font-size: 3vh;
+        font-family: "AvenirLight";
+        text-align: justify;
+    }
+
+    footer div.block9 div.blocktext9 div li {
+        font-size: 2.5vh;
+        font-family: "AvenirLight";
+        padding-bottom: 0.5vh;
+    }
+
+    footer div.block9 div.icon {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer div.block9 div.icon img {
+        display: flex;
+        width: 8%;
+
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+    }
 }
