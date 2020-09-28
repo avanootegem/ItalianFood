@@ -1,0 +1,20 @@
+/* Variable */
+:root {
+    --couleur-bg: rgb(191, 150, 75);
+    --couleur-nav: rgb(115, 108, 77);
+}
+
+/* Page 9 */
+
+
+footer div.bghaut9, footer div.bgbas9 {
+    width: 100vw;
+    height: 10vh;
+
+    background-color: var(--couleur-nav);
+}
+
+footer div.block9 {
+    width: 100vw;
+    height: 80vh;
+}

@@ -14,8 +14,8 @@ body {
 }
 
 header, section, footer {
-    height: 100vh;
-    border: solid black 
+    min-height: 100vh;
+    border: solid black;
 }
 
 /* Barre de navigation */

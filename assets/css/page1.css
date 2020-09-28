@@ -7,7 +7,7 @@
 /* Page 1 */
 
 header {
-    background-image: url("../img/BackGroundPart1.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255 ,255 ,0)), url("../img/BackGroundPart1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,37 +17,48 @@ header {
 
     header {
         display: flex;
-        justify-content: space-between;
+        position: relative;
+    }
+
+    header div.block1{
+        position: absolute;
+        display: flex;
+
+        width: 100vw;
+        
+        bottom: 20vh;
+        padding-left: 5vw;
+
+        align-items: flex-end;
     }
 
     header h1 {
         position: relative;
         color: white;
 
-        top: 60vh;
-        left: 5vw;
-
-        height: 25vh;
-        width: 40vw;
+        width: 35vw;
 
         font-size: 10vh;
     }
 
+    header h1 span {
+        font-size: 6vh;
+    }
 
-    header p.bouton1 {
-        display: flex;
+    header button.bouton1 {
         position: absolute;
+        display: flex;
+
         color: white;
         background-color: var(--couleur-bg);
 
-        top: 72vh; 
-        left: 79vw;
+        left: 75vw;
+        margin-bottom: 0.2em;
 
         height: 9vh;
         width: 13vw;
         font-size: 3.5vh;
 
-        text-align: center;
         justify-content: center;
         align-items: center;   
     }
