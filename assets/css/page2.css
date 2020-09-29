@@ -3,14 +3,43 @@
 section#page2 {
     background-image: url(../img/Rosace1.png);
     background-repeat: no-repeat;
-    background-size: cover 60%;
+    background-size: cover;
     background-position: left;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+section#page2 div.block2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    width: 90vw;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+section#page2 div.block2 div.text2 h3 {
+    font-size: 5rem;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    font-family: "AnticDidone";
+}
+
+section#page2 div.block2 div.text2 p {
+    font-size: 3rem;
+    font-family: "AvenirLight";
 }
 
 @media screen and (min-width: 768px) {
+
+    section#page2 {
+        justify-content: flex-end;
+    }
+
     section#page2 div.block2 {
         display: flex;
         flex-direction: column;
@@ -18,9 +47,9 @@ section#page2 {
 
         right: 0vw;
 
-        width: 90vw;
         height: 100vh;
 
+        text-align: justify;
         justify-content: center;
         align-items: center;
     }
@@ -30,13 +59,8 @@ section#page2 {
     }
 
     section#page2 div.block2 div.text2 h3 {
-        font-size: 6vh;
+        font-size: 5rem;
         margin-bottom: 3vh;
         font-weight: bold;
-    }
-
-    section#page2 div.block2 div.text2 p {
-        text-align: justify;
-        font-size: 3.5vh;
     }
 }

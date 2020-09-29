@@ -3,50 +3,65 @@
 section#page5 {
     background-image: url(../img/Rosace2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover 60%;
     background-position: right;
 
     display: flex;
     justify-content: flex-start;
 }
 
-section#page5 div.block5 {
-    display: flex;
-    width: 70vw;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-}
-
-section#page5 div.blocktext5 {
-    display:flex;
-    width: 30vw;
-    padding-bottom: 10vh;
-
-    flex-direction: column;
-}
-
 section#page5 h3.titre5 {
-    font-size: 4vw;
+    font-family: "AnticDidone";
 }
 
 section#page5 p.text5 {
-    font-size: 1.3vw;
+    font-family: "AvenirLight";
 }
 
 section#page5 div.code5 {
-    display: flex;
-    width: 30vw;
-    height: 20vh;
+    font-family: "AvenirLight";
+    font-weight: bold;
+}
 
-    font-size: 8vw;
-    color: var(--couleur-nav);
-    background-color: white;
-    border-radius: 5%;
+@media screen and (min-width: 678px) {
+    section#page5 div.block5 {
+        display: flex;
+        width: 70vw;
 
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+    }
+
+    section#page5 div.blocktext5 {
+        display:flex;
+        width: 30vw;
+        padding-bottom: 10vh;
+
+        flex-direction: column;
+    }
+
+    section#page5 h3.titre5 {
+        font-size: 4vw;
+    }
+
+    section#page5 p.text5 {
+        font-size: 1.3vw;
+    }
+
+    section#page5 div.code5 {
+        display: flex;
+        width: 30vw;
+        height: 20vh;
+
+        font-size: 8vw;
+        color: var(--couleur-nav);
+        background-color: white;
+        border-radius: 5%;
+
+        justify-content: center;
+        align-items: center;
+    }
 }

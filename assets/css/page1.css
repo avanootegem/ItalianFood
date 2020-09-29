@@ -5,7 +5,89 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: "AnticDidone";
 }
+
+header button.bouton1 {
+    font-family: "AvenirBook";
+}
+
+header div.block1{
+    position: absolute;
+    display: flex;
+
+    width: 100vw;
+        
+    bottom: 20vh;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    position: relative;
+    color: white;
+
+    width: 70vw;
+
+    font-size: 9rem;
+    text-align: center;
+
+    padding-bottom: 5vh;
+}
+
+header h1 span {
+    font-size: 5rem;
+}
+
+header button.bouton1 {
+    display: flex;
+
+    color: white;
+    background-color: var(--couleur-bg);
+
+    margin-bottom: 0.2em;
+
+    height: 9vh;
+    width: 31vw;
+    font-size: 4rem;
+
+    justify-content: center;
+    align-items: center;   
+}
+
+/* Max */
+
+@media screen and (max-width: 650px) {
+    header button.bouton1 {
+        font-size: 3rem;  
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header h1 {
+        width: 90vw;
+    
+        font-size: 8rem;
+    }
+
+    header button.bouton1 {
+        font-size: 2.5rem;  
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        width: 90vw;
+        font-size: 7rem;
+    }
+
+    header button.bouton1 {
+        font-size: 2rem;  
+    }
+}
+
+/* Min */
 
 @media screen and (min-width: 768px) {
 
@@ -14,44 +96,35 @@ header {
         position: relative;
     }
 
+    header h1 {
+        width: 30vw;
+
+        padding-bottom: 0;
+
+        text-align: left;
+    }
+
     header div.block1{
         position: absolute;
         display: flex;
 
-        width: 100vw;
+        width: 95vw;
         
         bottom: 20vh;
         padding-left: 5vw;
 
+        flex-direction: row;
         align-items: flex-end;
-    }
-
-    header h1 {
-        position: relative;
-        color: white;
-
-        width: 35vw;
-
-        font-size: 10vh;
-    }
-
-    header h1 span {
-        font-size: 6vh;
     }
 
     header button.bouton1 {
         position: absolute;
-        display: flex;
 
-        color: white;
-        background-color: var(--couleur-bg);
+        right: 5vw;
 
-        left: 75vw;
-        margin-bottom: 0.2em;
-
-        height: 9vh;
-        width: 13vw;
-        font-size: 3.5vh;
+        width: 25vw;
+        height: 6vh;
+        font-size: 2.5rem;
 
         justify-content: center;
         align-items: center;   
@@ -59,5 +132,29 @@ header {
 
     header p.bouton1:hover {
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    header button.bouton1 {
+        font-size: 3rem;
+        
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header button.bouton1 {
+        font-size: 5rem;
+
+        width: 25vw;
+        height: 8vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    header button.bouton1 {
+        width: 20vw;
+        height: 8vh;
     }
 }

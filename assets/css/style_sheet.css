@@ -5,6 +5,10 @@
     --couleur-nav: rgb(115, 108, 77);
 }
 
+html {
+    font-size: 62.5%;
+}
+
 *,*::before,*::after {
     box-sizing: border-box;
 }
@@ -22,10 +26,56 @@ header, section, footer {
 nav {
     position: fixed;
     z-index: 9;
+    font-family: "AvenirBook";
 }
 
 nav ul {
     list-style-type: none;
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--couleur-nav);
+    width: 100vw;
+    height: 15vh;
+}
+
+nav #nav-img{
+    padding-left: 30vw;
+    height: 40vw;
+}
+
+#menu-icon {
+    padding-right: 5vw;
+}
+
+@media screen and (max-width: 767px) {
+
+    nav.change ul {
+        position: absolute;
+        display: flex;
+
+        width: 100vw;
+        height: 10vh;
+
+        background-color: var(--couleur-nav);
+        top: 15vh;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.change li a {
+        text-decoration: none;
+        color: white;
+
+        padding: 0 2vw;
+
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -34,27 +84,13 @@ nav ul {
         display: none;
     }
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--couleur-nav);
-        width: 100vw;
-    }
-
     nav li {
         list-style-type: none;
-    }
-    
-
-    nav #nav-img{
-        padding-left: 3%;
-        height: 15vh;
     }
 
     nav ul {
         display: flex;
-        
+        padding-right: 2vw;
     }
 
     nav li a {
@@ -62,6 +98,11 @@ nav ul {
         text-align: center;
         text-decoration: none;
         padding: 0 3vw;
-        font-size: 22pt;
+        font-size: 2.5rem;
+    }
+
+    nav #nav-img {
+        padding-left: 2vw;
+        height: 15vw;
     }
 }

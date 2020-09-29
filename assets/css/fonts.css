@@ -4,6 +4,16 @@
 }
 
 @font-face {
-    font-family: "AvenirHeavy";
-    src: url("../fonts/FontsFree-Net-AvenirLTStd-Heavy.ttf");
+    font-family: "AvenirBook";
+    src: url("../fonts/FontsFree-Net-AvenirLTStd-Book.ttf");
+}
+
+@font-face {
+    font-family: "AvenirMedium";
+    src: url("../fonts/avenir-lt-std-65-medium.otf");
+}
+
+@font-face {
+    font-family: "AnticDidone";
+    src: url("../fonts/AnticDidone-Regular.ttf");
 }

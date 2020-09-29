@@ -4,25 +4,104 @@ section#page3 {
     background-color: var(--couleur-nav);
 }
 
+section#page3 div.block3 div.block3txt h3 {
+    font-family: "AnticDidone";
+}
+
+section#page3 div.block3 div.block3txt p {
+    font-family: "AvenirLight";
+}
+
+section#page3 div.block3 div.block3txt button.bouton3 {
+    font-family: "AvenirMedium";
+}
+
+section#page3 div.block3 {
+    display: flex;
+    position: relative;
+
+    width: 90vw;
+
+    top: 20vh;
+    left: 5vw;
+
+    color: white;
+
+    flex-direction: column;
+}
+
+section#page3 div.block3 * {
+    padding-bottom: 2vh;
+}
+
+section#page3 div.block3 div.img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#page3 div.block3 div.img3 img {
+    display: flex;
+    width: 60vw;
+}
+
+section#page3 div.block3 div.block3txt div {
+    position: relative;
+
+    width: 90vw;
+    height: auto;
+
+    text-align: center;
+}
+
+section#page3 div.block3 div.block3txt h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+section#page3 div.block3 div.block3txt p {
+    font-size: 1.5rem;
+}
+
+section#page3 div.block3 div.block3txt div {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#page3 div.block3 div.block3txt button.bouton3 {
+    display: flex;
+    color: white;
+    background-color: var(--couleur-bg);
+
+    height: 9vh;
+    width: 30vw;
+    font-size: 1.5rem;
+
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
     section#page3 div.block3 {
-        display: flex;
-
         height: 100vh;
-        color: white;
+
+        top: 0;
+        left: 0;
+
+        flex-direction: row;
     }
 
     section#page3 div.block3 div.img3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         width: 50vw;
     }
 
     section#page3 div.block3 div.img3 img {
-        display: flex;
-
         width: 35vw;
     }
 
@@ -39,8 +118,7 @@ section#page3 {
     }
 
     section#page3 div.block3 div.block3txt h3 {
-        font-size: 6vh;
-        font-weight: bold;
+        font-size: 5rem;
 
         padding-top: 3vh;
         padding-bottom: 2vh;
@@ -48,31 +126,22 @@ section#page3 {
 
     section#page3 div.block3 div.block3txt p {
         text-align: justify;
-        font-size: 3.5vh;
+        font-size: 3rem;
 
         padding-top: 3vh;
         padding-bottom: 2vh;
     }
 
-    section#page3 div.block3 div.block3txt div.bouton3 {
+    section#page3 div.block3 div.block3txt button.bouton3 {
         display: flex;
-        position: absolute;
         color: white;
         background-color: var(--couleur-bg);
 
         height: 9vh;
         width: 13vw;
-        font-size: 3.5vh;
+        font-size: 3rem;
 
         padding-top: 3vh;
         padding-bottom: 2vh;
-
-        text-align: center;
-        justify-content: center;
-        align-items: center; 
-    }
-
-    section#page3 div.block3 div.block3txt div.bouton3:hover {
-        cursor: pointer;
     }
 }

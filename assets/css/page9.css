@@ -8,6 +8,18 @@ footer div.bg9 {
     background-color: var(--couleur-nav);
 }
 
+footer div.block9 div.blocktext9 h3 {
+    font-family: "AvenirBook";
+}
+
+footer div.block9 div.blocktext9 div.text9 {
+    font-family: "AvenirLight";
+}
+
+footer div.block9 div.blocktext9 div li {
+    font-family: "AvenirLight";
+}
+
 @media screen and (min-width: 768px) {
     footer div.block9 {
         display: flex;
@@ -25,28 +37,32 @@ footer div.bg9 {
 
         color: white;
 
-        justify-content: space-around;
-        
+        justify-content: space-around;      
     }
 
     footer div.block9 div.blocktext9 h3 {
         font-size: 4vh;
 
-        font-family: "AvenirHeavy";
         padding-bottom: 5vh;
     }
 
     footer div.block9 div.blocktext9 div.text9 {
         width: 40vw;
         font-size: 3vh;
-        font-family: "AvenirLight";
         text-align: justify;
     }
 
     footer div.block9 div.blocktext9 div li {
         font-size: 2.5vh;
-        font-family: "AvenirLight";
         padding-bottom: 0.5vh;
+    }
+
+    footer div.block9 div.blocktext9 div ul {
+        padding-right: 2vw;
+    }
+
+    footer div.block9 div.blocklist9 {
+        display: flex;
     }
 
     footer div.block9 div.icon {
