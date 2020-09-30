@@ -20,24 +20,71 @@ footer div.block9 div.blocktext9 div li {
     font-family: "AvenirLight";
 }
 
+footer div.block9 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+
+    text-align: center;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer div.block9 div.blocktext9 {
+    display: flex;
+    width: 80vw;
+
+    color: white;
+
+    flex-direction: column;
+    justify-content: space-around;      
+}
+
+footer div.block9 div.blocktext9 h3 {
+    font-size: 4rem;
+
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+footer div.block9 div.blocktext9 div.text9 {
+    font-size: 2.5rem;
+    padding-bottom: 3vh;
+}
+
+footer div.block9 div.blocktext9 div ul {
+    padding-bottom: 2vh;
+}
+
+footer div.block9 div.blocktext9 div li {
+    display: inline;
+    font-size: 2.5rem;
+    padding-right: 2vw;
+}
+
+footer div.block9 div.icon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 80vw;
+}
+
+footer div.block9 div.icon img {
+    display: flex;
+    width: 12%;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
 @media screen and (min-width: 768px) {
-    footer div.block9 {
-        display: flex;
-        width: 100vw;
-        height: 80vh;
-
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-
     footer div.block9 div.blocktext9 {
-        display: flex;
-        width: 100vw;
-
-        color: white;
-
-        justify-content: space-around;      
+        flex-direction: row;    
     }
 
     footer div.block9 div.blocktext9 h3 {
@@ -53,6 +100,7 @@ footer div.block9 div.blocktext9 div li {
     }
 
     footer div.block9 div.blocktext9 div li {
+        display: block;
         font-size: 2.5vh;
         padding-bottom: 0.5vh;
     }
@@ -63,21 +111,5 @@ footer div.block9 div.blocktext9 div li {
 
     footer div.block9 div.blocklist9 {
         display: flex;
-    }
-
-    footer div.block9 div.icon {
-        display: flex;
-
-        align-items: center;
-        justify-content: center;
-    }
-
-    footer div.block9 div.icon img {
-        display: flex;
-        width: 8%;
-
-        padding-left: 1vw;
-        padding-right: 1vw;
-
     }
 }

@@ -22,7 +22,7 @@ section#page3 div.block3 {
 
     width: 90vw;
 
-    top: 20vh;
+    top: 10vh;
     left: 5vw;
 
     color: white;
@@ -76,11 +76,11 @@ section#page3 div.block3 div.block3txt button.bouton3 {
     color: white;
     background-color: var(--couleur-bg);
 
-    height: 9vh;
+    height: 7vh;
     width: 30vw;
     font-size: 1.5rem;
 
-    padding-top: 3vh;
+    padding-top: 2vh;
     padding-bottom: 2vh;
 
     align-items: center;
@@ -143,5 +143,11 @@ section#page3 div.block3 div.block3txt button.bouton3 {
 
         padding-top: 3vh;
         padding-bottom: 2vh;
+    }
+}
+
+@media screen and (max-height: 650px) {
+    section#page3 div.block3 div.img3 img {
+        width: 40vw;
     }
 }

@@ -23,7 +23,41 @@ section#page5 div.code5 {
     font-weight: bold;
 }
 
-@media screen and (min-width: 678px) {
+section#page5 div.block5 {
+    display: flex;
+    width: 100vw;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+section#page5 h3.titre5 {
+    font-size: 6rem;
+}
+
+section#page5 p.text5 {
+    font-size: 2rem;
+    padding-bottom: 5vh;
+}
+
+section#page5 div.code5 {
+    display: flex;
+    width: 70vw;
+    height: 25vh;
+
+    font-size: 15rem;
+    color: var(--couleur-nav);
+    background-color: white;
+    border-radius: 5%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
     section#page5 div.block5 {
         display: flex;
         width: 70vw;
@@ -37,26 +71,26 @@ section#page5 div.code5 {
 
     section#page5 div.blocktext5 {
         display:flex;
-        width: 30vw;
+        width: 50vw;
         padding-bottom: 10vh;
 
         flex-direction: column;
     }
 
     section#page5 h3.titre5 {
-        font-size: 4vw;
+        font-size: 8rem;
     }
 
     section#page5 p.text5 {
-        font-size: 1.3vw;
+        font-size: 3rem;
     }
 
     section#page5 div.code5 {
         display: flex;
-        width: 30vw;
-        height: 20vh;
+        width: 50vw;
+        height: 25vh;
 
-        font-size: 8vw;
+        font-size: 15rem;
         color: var(--couleur-nav);
         background-color: white;
         border-radius: 5%;

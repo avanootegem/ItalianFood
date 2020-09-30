@@ -19,6 +19,7 @@ body {
 
 header, section, footer {
     min-height: 100vh;
+    overflow: hidden;
 }
 
 /* Barre de navigation */
