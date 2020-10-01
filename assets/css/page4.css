@@ -11,8 +11,6 @@ section#page4 div.blockimg4 div p{
 section#page4 {
     display: flex;
 
-    height: 120vh;
-
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -32,7 +30,7 @@ section#page4 div.titre4 {
 
 #page4 div.blockimg4 {
     position: relative;
-    top: 5vh; 
+    padding-top: 5vh; 
 }
 
 section#page4 div.titre4 h3 {

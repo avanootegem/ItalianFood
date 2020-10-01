@@ -22,8 +22,8 @@ section#page3 div.block3 {
 
     width: 90vw;
 
-    top: 10vh;
-    left: 5vw;
+    padding-top: 10vh;
+    padding-left: 5vw;
 
     color: white;
 
