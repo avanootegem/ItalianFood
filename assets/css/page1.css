@@ -145,7 +145,7 @@ header button.bouton1 {
 
 @media screen and (min-width: 1200px) {
     header button.bouton1 {
-        font-size: 5rem;
+        font-size: 4rem;
 
         width: 25vw;
         height: 8vh;
